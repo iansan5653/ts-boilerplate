@@ -56,6 +56,10 @@
     "@typescript-eslint/no-parameter-properties": "off",
     "@typescript-eslint/camelcase": "off",
     "@typescript-eslint/array-type": ["error", "array-simple"],
+    "@typescript-eslint/explicit-function-return-type": [
+      "error",
+      {"allowExpressions": true}
+    ],
     //: Off because sometimes using any makes sense; ie: `(...args: any[]) -> any`
     "@typescript-eslint/no-explicit-any": "off",
     "max-len": [
