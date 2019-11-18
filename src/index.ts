@@ -4,3 +4,7 @@
  * @copyright 2019 Ian Sanders
  * @license MIT
  */
+
+export function getOne(): number {
+  return 1;
+}
